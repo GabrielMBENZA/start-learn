@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mot de passe oublié </title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<style>
+.nickel{
+   
+   border-radius: 20px 20px 20px 20px;
+   background-color: darkcyan;
+   width: 500px;
+   height: 250px;
+   transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow:0 4px 10px rgba(0, 0, 0, 0.4) ;
+padding: 70px;
+margin: 100px auto;
+
+}
+input{
+    margin: 5px 0 15px 0;
+    padding: 8px;
+    width: 100%;
+    background-color: #deeffa;
+}
+h1, h2 {
+    text-align: center;
+    color: #333;
+    top: 480px;
+}
+
+button {
+    background-color: #085f6e;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 140px;
+}
+button:hover {
+    background-color: #45a049;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+body{
+     background-color: #deeffa;
+        font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    padding: 50px;
+}
+</style>
+<body>
+
+   <div class="nickel"data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" >
+    <h1>Mot de passe oublié</h1>
+    <form id="contact">
+       
+        <legend>
+
+        </legend>
+         <label for="name">Adresse Email ou Numero de télèphone:</label>
+        <input type="text" id="email" name="email" placeholder="Entrez votre adresse email ou numéro de téléphone" required><br>
+         <button type="submit">Entrez Ici</button>
+      
+        
+    </form>
+    </div> 
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script> 
+</body>
+</html>
+
+

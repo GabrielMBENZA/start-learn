@@ -1,0 +1,39 @@
+ body{
+        background-color: #deeffa;
+       
+    font-family: Arial, Helvetica, sans-serif
+}
+    
+h1{
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+}
+.nickel {
+    border-radius: 20px;
+    background-color: rgba(245, 244, 247, 0.4);
+    width: 1250px;
+    height: 450px;
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+  gap: 50px;
+  
+  margin: 50px;
+  align-items: center;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
+}
+h1,h2{
+    text-decoration: underline;
+}
+ul li{
+     text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', 'Roboto', 'Open Sans', Arial, Helvetica, sans-serif;
+   
+}

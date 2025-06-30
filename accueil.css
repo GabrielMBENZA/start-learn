@@ -1,0 +1,379 @@
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    header#simple {
+      background-color: black;
+      position: relative;
+    }
+
+    
+    .star {
+      height: 150px;
+      width: 300px;
+      margin-left: 10px;
+      
+    }
+
+    header#simple nav.un {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+    header#simple nav.un a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+    }
+    header#simple nav.un a:hover {
+      color: #2980B9;
+    }
+    header#simple nav.zero {
+      position: absolute;
+       top: 10px;
+      left:10px;
+      
+    }
+    header#simple nav.zero button {
+      background-color: transparent;
+      border: none;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    header#simple nav.zero button:hover {
+      color: #2980B9;
+    }
+
+    div.fuck {
+      display: flex;
+      background-color:#2C3E50 ;
+    }
+    .fuck img{
+      background-color:#2C3E50 ;
+    }
+
+    p strong {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: white;
+
+    }
+
+    footer {
+      background-color: rgba(0, 0, 139, 0.534);
+      color: white;
+      padding: 10px;
+      text-align: center;
+      margin-top: auto;
+    }
+
+    .mmg {
+      background-color: #2C3E50;
+      color: white;
+      padding: 10px;
+    }
+
+    .merde {
+      display: flex;
+      gap: 100px;
+      padding: 20px;
+
+    }
+
+    .merde img, .yes img {
+      border-radius: 0px 20px;
+      height: 200px;
+      width: 300px;
+    }
+
+    .big {
+      display: flex;
+      
+      color: white;
+      gap: 500px;
+      padding: 20px;
+      
+    }
+
+    .chef img {
+      border-radius: 70%;
+      width: 500px;
+      object-fit: cover;
+      margin-left: 340px;
+      
+    }
+
+    .giga, .benie, .yes, .gar {
+      padding: 20px;
+      text-align: center;
+
+    }
+    .egal {
+    padding: 20px;
+    }
+
+    .puff, .man, .reel {
+      
+      text-align: center;
+      padding: 30px;
+    }
+    .puff{
+      margin-left: 30px;
+
+    }
+
+    .bon {
+      margin-left: 70px;
+    }
+
+    .gg, .money {
+      padding: 20px;
+    }
+    .top-bar {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+    }
+
+    
+
+
+     .rap, .zer img {
+      border-radius: 70%;
+      margin-left: 360px;
+    }
+
+    
+
+
+    .profile-icon {
+      font-size: 30px;
+      right: 0;
+      color: whitesmoke;
+      margin-bottom: 30px;
+
+    }
+
+    .search-icon {
+      font-size: 30px;
+      margin-left: 500px;
+      margin-right: auto;
+      color: whitesmoke;
+      
+    }
+
+.rien{
+  margin-left: 300px;
+  
+
+}
+.objet{
+
+  margin-left: 230px;
+  
+}
+.doct{
+
+  padding: 50px;
+  
+}
+h2{
+
+  text-align: center;
+  color: #2980B9;
+}
+
+.negro{
+
+  display: inline-block;
+  gap: 200px;
+  margin-left: 370px;
+}
+.negro img{
+
+  margin-top: 100px;
+}
+.easy img{
+  border-radius: 70%;
+}
+.rap{
+
+  border-radius: 70%;
+  margin-left: 360px;
+}
+.zer{
+  border-radius: 70%;
+  margin-left: 360px;
+}
+p{
+  color: #2C3E50;
+}
+.jack{
+
+  background-color: #F5F7FA;
+}
+.meilleur{
+  padding: 30px;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: beige;
+}
+.zero{
+  gap: 0px;
+  
+  
+  
+}
+.dams strong{
+  color: #2C3E50;
+}
+.normal{
+  
+  border-radius:20px 20px 20px 20px; ;
+   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.15);
+  width: 500px;
+  height: 250px;
+
+}
+.normal:hover{
+ transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow:0 4px 10px rgba(0, 0, 0, 0.4) ;
+}
+
+.nickel{
+   
+   border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 2px 8px 0 rgba(169, 169, 169, 0.4), 0 1.5px 3px 0 rgba(192, 192, 192, 0.3);
+
+   width: 500px;
+   height: 250px;
+   
+
+}
+
+.nickel:hover{
+ transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow:0 4px 10px rgba(0, 0, 0, 0.4) ;
+}
+.beau{
+  display: flex;
+  gap: 150px;
+  padding: 50px;
+  background-color: #deeffa;
+}
+.gentil{
+  margin-left: 200px;
+  background-color: rgb(148, 85, 8);
+  width: 100px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+  border-radius:  20px 20px 20px;
+}
+.gentil:hover{
+  color: white;
+   background-color: darkgray;
+   border: 1px solid black;
+  border-radius: 20px 20px 20px 20px;
+  width: 200px;
+  height: 30px;
+  cursor: pointer;
+  
+
+}
+.mechant{
+  margin-left: 200px;
+background-color: darkgray;
+width: 100px;
+height: 30px;
+cursor: pointer;
+border-radius: 20px 20px 20px 20px;
+  cursor: pointer;
+}
+.mechant:hover{
+  color: white;
+  background-color: rgb(148, 85, 8);
+ border: 1px solid black;
+  border-radius: 20px 20px 20px 20px;
+  width: 200px;
+  height: 30px;
+  cursor: pointer;
+}
+.nickel p{
+  text-align: center;
+}
+.normal p{
+text-align: center;
+}
+
+
+#recherche{
+  border-radius: 30px;
+  border: 2px solid black;
+  width: 500px;
+  height: 35px;
+}
+.fou{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.carre{
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  cursor: pointer;
+}
+.son{
+  text-decoration: none;
+  color: black;
+}
+.son:hover{
+color: #222222;
+  background-color: white;
+  border: 1px white solid;
+  border-radius: 20px 20px 20px 20px;
+}
+.mmg{
+  display: flex;
+  list-style: none;
+  gap: 400px;
+}
+.normal img {
+  width: 100%;          /* l'image prend toute la largeur du div */
+  height: 180px;        /* même hauteur pour toutes les images */
+  object-fit: cover;    /* recadre l'image sans la déformer */
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.nickel img {
+  width: 100%;          /* l'image prend toute la largeur du div */
+  height: 180px;        /* même hauteur pour toutes les images */
+  object-fit: cover;    /* recadre l'image sans la déformer */
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+  

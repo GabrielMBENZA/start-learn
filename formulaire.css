@@ -1,0 +1,52 @@
+
+.nickel{
+   
+   border-radius: 20px 20px 20px 20px;
+   background-color: darkcyan;
+   width: 700px;
+   height: 500px;
+   transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow:0 4px 10px rgba(0, 0, 0, 0.4) ;
+padding: 30px;
+margin: 90px auto;
+
+}
+input{
+    margin: 5px 0 15px 0;
+    padding: 8px;
+    width: 100%;
+    background-color: #deeffa;
+}
+h1, h2 {
+    text-align: center;
+    color: #333;
+    top: 480px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+button:hover {
+    background-color: #45a049;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+body{
+     background-color: #deeffa;
+        font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    padding: 50px;
+}
